@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, AddProtocol>
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+   
 @end

@@ -21,6 +21,7 @@
 		8AE40CFA19D9FAEC00A2D3CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE40CDC19D9FAEC00A2D3CB /* UIKit.framework */; };
 		8AE40D0219D9FAEC00A2D3CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AE40D0019D9FAEC00A2D3CB /* InfoPlist.strings */; };
 		8AE40D0419D9FAEC00A2D3CB /* SimpleTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE40D0319D9FAEC00A2D3CB /* SimpleTableTests.m */; };
+		8AE40D0F19D9FF0300A2D3CB /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE40D0E19D9FF0300A2D3CB /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8AE40CFF19D9FAEC00A2D3CB /* SimpleTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTableTests-Info.plist"; sourceTree = "<group>"; };
 		8AE40D0119D9FAEC00A2D3CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AE40D0319D9FAEC00A2D3CB /* SimpleTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableTests.m; sourceTree = "<group>"; };
+		8AE40D0D19D9FF0300A2D3CB /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		8AE40D0E19D9FF0300A2D3CB /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				8AE40CE719D9FAEC00A2D3CB /* AppDelegate.h */,
 				8AE40CE819D9FAEC00A2D3CB /* AppDelegate.m */,
 				8AE40CEA19D9FAEC00A2D3CB /* Main.storyboard */,
+				8AE40D0D19D9FF0300A2D3CB /* AddViewController.h */,
+				8AE40D0E19D9FF0300A2D3CB /* AddViewController.m */,
 				8AE40CED19D9FAEC00A2D3CB /* ViewController.h */,
 				8AE40CEE19D9FAEC00A2D3CB /* ViewController.m */,
 				8AE40CF019D9FAEC00A2D3CB /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			files = (
 				8AE40CEF19D9FAEC00A2D3CB /* ViewController.m in Sources */,
 				8AE40CE919D9FAEC00A2D3CB /* AppDelegate.m in Sources */,
+				8AE40D0F19D9FF0300A2D3CB /* AddViewController.m in Sources */,
 				8AE40CE519D9FAEC00A2D3CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
